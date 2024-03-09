@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: #272727;
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+    padding: 10px;
+}
+
+#Home,#About,#Contact{
+    animation: name 4s infinite;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 5px;
+    color: rgb(153, 255, 0);
+}
+#uu{
+    position: absolute;
+    color: white;
+}
+
+#Home:hover,#About:hover,#Contact:hover{
+   background-color: greenyellow;
+   color: rgba(0, 0, 0, 0.652);
+   display: inline-block;
+   border-radius: 5px;
+   transform:scale(1.2)
+}
+
+@keyframes name{
+    0%,100%{
+        background-color: #68b06e;
+        color: black;
+        border-radius: 5px ;
+    }   
+    50%{
+        background-color: #272727;
+        color: lime;
+        border-radius: 5px;
+    } 
+}
+
+#go{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+
+}
+
+#GOA{
+    border: 5px solid;
+    padding: 200px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+
+#wit,#deposit,#send{
+    border: 5px solid;
+    font-size: 20px;
+    padding: 40px;
+    background-color: #68b06e;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.5s;
+}
+#uu{
+  position:absolute;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 370px;
+}
+#u{
+    position: absolute;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 280px;
+}
+#wit:hover,#deposit:hover,#send:hover{
+    scale:(1.1);
+    color: #68b06e;
+    background-color: black;
+}
+#gol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    position: absolute;
+    margin-bottom: 200px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    color: #68b06e;
+}
